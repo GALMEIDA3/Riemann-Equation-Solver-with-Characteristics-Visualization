@@ -1,4 +1,6 @@
-# Riemann Equation Solver with Characteristics Visualization This project numerically solves the Riemann equation: `u_t = u_x` using the method of characteristics and provides an animation of the evolving solution as well as a plot of the characteristic curves. The project uses Python with NumPy for numerical computations and Matplotlib for visualization.
+# Riemann Equation Solver with Characteristics Visualization 
+
+This project numerically solves the Riemann equation: `u_t = u_x` using the method of characteristics and provides an animation of the evolving solution as well as a plot of the characteristic curves. The project uses Python with NumPy for numerical computations and Matplotlib for visualization.
 
 ## Table of Contents 
 - [Overview](#overview) 
@@ -20,7 +22,7 @@ This approach works well for linear equations like the Riemann equation, as it c
 
 ## Mathematical Background The Riemann equation can be expressed as: 
 
-`u_t + u_x = 0` 
+`u_t - u_x = 0` 
 
 which is also written as: 
 
